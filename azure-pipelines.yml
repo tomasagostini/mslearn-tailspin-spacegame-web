@@ -15,7 +15,7 @@ steps:
   inputs:
     packageType: sdk
     version: '6.x'
-git checkout -B build-pipeline
+
 - task: Npm@1
   displayName: 'Run npm install'
   inputs:
